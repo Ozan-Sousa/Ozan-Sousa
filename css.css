@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Websites{
+    display: grid;
+    height: 85vh;
+    width: 85vh;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: calc((100vw - 85vh) / 2)
+}
+
+body{
+    margin: 0 !important;
+}
+
+.Websites img{
+    width: 60%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Websites div{
+    position: relative;
+    transition: box-shadow 0.5s;
+}
+
+.Websites div:hover{
+    box-shadow: rgb(133, 118, 118) 7px 7px 10px;
+}
+
+.lumora{
+    background-color: rgb(27, 25, 29);
+}
+
+.drills{
+    background-color: rgb(167, 47, 31);
+}
+
+.skyward{
+    background-color: rgb(230, 252, 255);
+}
+
+h1{
+    height: 12.5vh;
+    line-height: 12.5vh;
+    text-align: center;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
